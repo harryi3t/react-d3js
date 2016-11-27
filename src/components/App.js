@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import NavbarApp from './NavbarApp';
+import Navbar from 'my-navbar';
+import Pipelines from './Pipelines';
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
-      <NavbarApp url='https://github.com/harryi3t/new-app'>
-        <h1>New App</h1>
-      </NavbarApp>
+      <Navbar url='https://github.com/haryyi3t/react-d3JS'>
+        <Pipelines />
+      </Navbar>
     );
   }
 }

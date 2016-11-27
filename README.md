@@ -1,4 +1,4 @@
-new-app
+react-d3JS
 =====================
 
 Resyncs the subtitles in React with hot-loader to enable live-editing React components.

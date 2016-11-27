@@ -1,5 +1,5 @@
 {
-  "name": "new-app",
+  "name": "react-d3JS",
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harryi3t/new-app.git"
+    "url": "https://github.com/harryi3t/react-d3JS.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Harendra Singh <66hari@gmail.com> (http://github.com/harryi3t)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harryi3t/new-app/issues"
+    "url": "https://github.com/harryi3t/react-d3JS/issues"
   },
-  "homepage": "https://github.com/harryi3t/new-app",
+  "homepage": "https://github.com/harryi3t/react-d3JS",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^7.1.0",
@@ -47,7 +47,9 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "d3": "^4.4.0",
     "file-loader": "^0.9.0",
+    "my-navbar": "^0.1.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-hot-loader": "^3.0.0-beta.6",
